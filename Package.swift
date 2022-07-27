@@ -21,7 +21,7 @@ let package = Package(
             dependencies: [
                 "CocoaAsyncSocket"
             ],
-            path: "Source",
+            path: "Sources",
             publicHeadersPath: "include"
         )
     ]
