@@ -137,7 +137,7 @@
 			do
 				pathPart = pathEnumerator.nextObject;
 			while (pathPart && pathPart.length == 0);
-			 if ([pathPart isEqualToString:RVHTTPURI_scoreBoard]) { // this could be generic for scoreboards in general){
+			 if ([pathPart isEqualToString:RVHTTPURI_custom]) { // this could be generic for scoreboards in general){
 				do
 					pathPart = pathEnumerator.nextObject;
 				while (pathPart && pathPart.length == 0);
