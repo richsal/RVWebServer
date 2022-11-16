@@ -183,7 +183,8 @@
 - (BOOL)supportsMethod:(NSString *)method atPath:(NSString *)path {
 	if ([method isEqualToString:@"POST"]) {
 		if ([path rangeOfString:RVHTTPURI_message].location != NSNotFound ||
-			[path rangeOfString:RVHTTPURI_scoreBoard].location != NSNotFound ||
+            [path rangeOfString:RVHTTPURI_scoreBoard].location != NSNotFound ||
+            [path rangeOfString:RVHTTPURI_custom].location != NSNotFound ||
 			[path rangeOfString:RVHTTPURI_lacrosse].location != NSNotFound ||
 			[path rangeOfString:RVHTTPURI_soccer].location != NSNotFound ||
 			[path rangeOfString:RVHTTPURI_footballClock].location != NSNotFound) {
